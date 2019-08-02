@@ -1,0 +1,46 @@
+body {
+    padding-top: 50px;
+}
+
+.instagram-pic {
+    position: relative;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.instagram-pic img {
+    padding: 5px;
+    border-radius: 1px;
+    width: 100%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+.instagram-bar {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #d1d1d1;
+}
+
+.instagram-bar span {
+    margin-right: 5px;
+}
+
+.instagram-bar .likes {
+    background: rgba(0, 0, 0, .75);
+    float: left;
+    padding: 0 10%;
+}
+
+.instagram-bar .comments {
+    background: rgba(0, 0, 0, .75);
+    padding: 0 10%;
+    float: right;
+}
+
+footer {
+    padding: 50px;
+}
